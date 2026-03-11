@@ -1,0 +1,16 @@
+{
+  "name": "my-claude-plugins",
+  "owner": {
+    "name": "Alexei Lexx"
+  },
+  "description": "Plugins to streamline development across projects.",
+  "plugins": [
+    {
+      "name": "formatter",
+      "source": "./plugins/formatter",
+      "description": "Git and GitHub formatting conventions.",
+      "version": "1.0.0"
+    }
+  ],
+  "strict": false
+}
