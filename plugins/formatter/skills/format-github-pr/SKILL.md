@@ -5,16 +5,18 @@ description: "Formats a GitHub pull request title and description. Use this skil
 
 # format-github-pr
 
-Format a GitHub pull request title and description that communicates *what* changed and *why*.
+Format a GitHub pull request title and description that communicates _what_ changed and _why_.
 
 ## Step 1: Gather context
 
 If the user provided a PR number or GitHub URL, look up the existing PR:
+
 ```bash
 gh pr view <number> --json number,title,body,baseRefName,url
 ```
 
 Otherwise, check if the current branch already has a PR:
+
 ```bash
 gh pr view --json number,title,body,baseRefName,url 2>/dev/null
 ```
@@ -27,11 +29,13 @@ gh pr view --json number,title,body,baseRefName,url 2>/dev/null
 ## Step 3: Analyze the changes
 
 **For existing PRs** (when you have a PR number from Step 1):
+
 ```bash
 gh pr diff <pr-number>            # actual PR diff on GitHub
 ```
 
 **For new PRs** (no PR number yet):
+
 ```bash
 git log <base>..HEAD --oneline    # commits on this branch
 git diff <base>..HEAD --stat      # files changed
@@ -54,7 +58,7 @@ Also factor in any context the user provided — they often know things the diff
 
 ### Content principles
 
-- Focus on *what* and *why* — omit implementation details unless essential for understanding
+- Focus on _what_ and _why_ — omit implementation details unless essential for understanding
 - Describe changes in plain language — explain intent and effect, not what the code says
 - Concise and factual — no filler, no vague statements
 - Write as a human developer — no mention of AI authorship
@@ -70,11 +74,13 @@ Also factor in any context the user provided — they often know things the diff
 ### Sections
 
 Include the following sections in the description:
+
 - **context** — Why this change is needed — the motivation or pain point it addresses
 - **before** — Describe current behavior or limitations
 - **after** — Describe new behavior or improvements
 
 Follow these rules strictly for `before` and `after` sections:
+
 - Do not explain the code change — explain its purpose or user-facing effect
 - Use bullet points
 - IMPORTANT: Classify the PR as **small**, **medium**, or **big** based on scope and number of changes

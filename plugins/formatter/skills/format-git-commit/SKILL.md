@@ -32,6 +32,7 @@ Read the diff and focus on:
 ### Step 4: Write the commit message
 
 **Subject line:**
+
 - Lowercase (except proper nouns and acronyms)
 - Imperative mood: "add", "fix", "update", "remove", "move", etc.
 - 50 characters or fewer if possible
@@ -39,6 +40,7 @@ Read the diff and focus on:
 - Be specific — avoid generic messages like "update" or "fix"
 
 **Body (only when needed):**
+
 - Skip the body if the subject line fully explains the change
 - Add a body when there are multiple logical changes or the "why" isn't obvious
 - Separate subject from body with a blank line
@@ -46,6 +48,7 @@ Read the diff and focus on:
 - Use normal text casing for bullet items (capitalize sentences, proper nouns, etc.) and active voice
 
 **Human authorship:**
+
 - Write as a human developer — no AI mentions, no AI co-authors
 
 **Examples:**

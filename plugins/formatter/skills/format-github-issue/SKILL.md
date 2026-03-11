@@ -17,12 +17,12 @@ Format and beautify a GitHub issue title and/or body to match project convention
 
 ### 1. Classify the issue type
 
-| Type | When to use |
-|------|------------|
-| **Feature** | New functionality or enhancements |
-| **Bug** | Defects and unexpected behavior |
-| **Technical/Refactoring** | Infrastructure, architecture, code quality |
-| **Simple Task** | Trivial change where title is self-explanatory |
+| Type                      | When to use                                    |
+| ------------------------- | ---------------------------------------------- |
+| **Feature**               | New functionality or enhancements              |
+| **Bug**                   | Defects and unexpected behavior                |
+| **Technical/Refactoring** | Infrastructure, architecture, code quality     |
+| **Simple Task**           | Trivial change where title is self-explanatory |
 
 If the type is ambiguous, ask before continuing.
 
@@ -34,6 +34,7 @@ If the type is ambiguous, ask before continuing.
 - 5–10 words, specific — describe the exact change or problem, not vague goals
 
 **Examples:**
+
 - `show top 5 transactions per category in monthly report`
 - `fix npm audit issues`
 - `[bug] pagination fails when using date filters`
@@ -46,11 +47,13 @@ Use the section structure for the classified type:
 #### Feature
 
 Mandatory sections:
+
 - `## context` — explain why this feature is needed
 - `## solution` — describe the high-level approach
 - `## acceptance criteria` — checkboxes
 
 Optional sections:
+
 - `## user flow` — step-by-step interaction
 - `## UI behavior` — interface details
 - `## notes` — constraints, edge cases
@@ -79,11 +82,13 @@ Add a weekday breakdown chart to the monthly reports page.
 #### Bug
 
 Mandatory sections:
+
 - `## steps to reproduce` — clear, numbered steps (if reproducible)
 - `## current behavior` — what happens now
 - `## expected behavior` — what should happen instead
 
 Optional sections:
+
 - `## screenshots` — images to illustrate
 - `## additional context` — any other relevant info
 
@@ -108,6 +113,7 @@ Page 2 displays remaining transactions.
 #### Technical/Refactoring
 
 Mandatory sections:
+
 - `## context` — background and motivation
 - `## current state` — what exists now
 - `## required changes` — what needs to change
@@ -140,11 +146,13 @@ Body is brief or empty if the title is self-explanatory.
 ```
 remove unused cdk.CfnOutput entries
 ```
+
 (empty body)
 
 ```
 rename transaction filter buttons
 ```
+
 Body: `Rename "Apply filters" to "Apply" and "Clear filters" to "Clear"`
 
 ### 4. Writing guidelines
@@ -158,6 +166,7 @@ Body: `Rename "Apply filters" to "Apply" and "Clear filters" to "Clear"`
 - Technical: technical language is fine, include code snippets when helpful
 
 **Avoid:**
+
 - Vague titles (`improvements`, `fix bug`)
 - Missing acceptance criteria on features
 - Bug reports without reproduction steps (when reproducible)
