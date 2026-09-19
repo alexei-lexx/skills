@@ -1,15 +1,24 @@
 {
-  "name": "my-claude-plugins",
+  "name": "alexei-lexx/skills",
   "owner": {
     "name": "Alexei Lexx"
   },
-  "description": "Plugins to streamline development across projects.",
+  "description": "Alexei Lexx' skills for developers",
   "plugins": [
     {
-      "name": "formatter",
-      "source": "./plugins/formatter",
-      "description": "Git and GitHub formatting conventions.",
-      "version": "1.0.0"
+      "name": "development",
+      "source": "./plugins/development",
+      "description": "Git and GitHub formatting conventions."
+    },
+    {
+      "name": "learning",
+      "source": "./plugins/learning",
+      "description": "Skills for learning new topics, interview preparation, and knowledge checks."
+    },
+    {
+      "name": "misc",
+      "source": "./plugins/misc",
+      "description": "Miscellaneous skills that don't fit a specific category."
     }
   ],
   "strict": false

@@ -1,0 +1,17 @@
+{
+  "name": "alexei-lexx-skills",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Alexei Lexx' skills for developers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexei-lexx/skills"
+  },
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.9.8"
+  }
+}
