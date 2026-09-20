@@ -7,6 +7,10 @@ description: "Teaches or recaps a topic in small ordered pieces, one at a time, 
 
 Teach a topic one small piece at a time. Basics first, advanced later. Pause between pieces.
 
+## Research
+
+Before planning, search for current info on the topic — don't rely only on built-in knowledge, which can be stale. Favor authoritative sources (official docs, standards) over random blogs. Keep the list short; it's there to ground the roadmap, not to be exhaustive.
+
 ## Plan
 
 - Break the topic into items, basics to advanced. An item is one thing to explain: one mechanism, rule, or distinction.
