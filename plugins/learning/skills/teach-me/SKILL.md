@@ -16,7 +16,7 @@ Teach a topic one small piece at a time. Basics first, advanced later. Pause bet
 
 ## Plan
 
-- Break the topic into items, basics to advanced. An item is one thing to explain: one mechanism, rule, or distinction.
+- Break the topic into items, basics to advanced. An item is one thing to explain: one mechanism, rule, distinction, or pitfall (gotcha, edge case, inconsistency, trap).
 - One idea per item. If explaining an item surfaces a second fact, make that a new item.
 - Item N can only use ideas from earlier items. Never reach forward.
 - Let the topic decide the item count. No fixed number.
@@ -28,6 +28,7 @@ Teach a topic one small piece at a time. Basics first, advanced later. Pause bet
 - Then list the sources used in research.
 - One item per message, using the item format above.
 - Keep each item short: readable in about two minutes, roughly 300-400 words. That's a ceiling, not a target.
+- If an item has code, and you can run that programming language, run it before sending. Fix any error. Can't run it? Skip this check.
 - Wait for a clear go-ahead ("next", "continue", "go ahead") before sending the next item.
 - Anything else — a question, a comment, a tangent — means stay on this item. Discussion is fine and doesn't need to happen before moving on.
 
