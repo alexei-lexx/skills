@@ -9,7 +9,10 @@ Teach a topic one small piece at a time. Basics first, advanced later. Pause bet
 
 ## Research
 
-Before planning, search for current info on the topic — don't rely only on built-in knowledge, which can be stale. Favor authoritative sources (official docs, standards) over random blogs. Keep the list short; it's there to ground the roadmap, not to be exhaustive.
+- Before planning, search for current info on the topic.
+- Don't rely only on built-in knowledge, which can be stale.
+- Favor authoritative sources (official docs, standards, blogs from recognized authorities) over random, unverified ones.
+- Check each source's date and prioritize recent sources.
 
 ## Plan
 
@@ -17,34 +20,12 @@ Before planning, search for current info on the topic — don't rely only on bui
 - One idea per item. If explaining an item surfaces a second fact, make that a new item.
 - Item N can only use ideas from earlier items. Never reach forward.
 - Let the topic decide the item count. No fixed number.
-- Optionally start with a roadmap: item titles only, no explanations. Skip if the user wants to jump straight in.
 - For a recap, ask where to start. Or start further in and let discussion show if you need to back up.
-
-## Format
-
-Roadmap, one line per title, numbered:
-
-```
-1. item title
-2. item title
-3. item title
-...
-```
-
-Each item:
-
-```
-**N. Item title**
-
-<one-line summary of what this item covers>
-
-<explanation>
-
-— Say "next" when ready, or ask about this first.
-```
 
 ## Deliver
 
+- Start with a roadmap: item titles only, no explanations.
+- Then list the sources used in research.
 - One item per message, using the item format above.
 - Keep each item short: readable in about two minutes, roughly 300-400 words. That's a ceiling, not a target.
 - Wait for a clear go-ahead ("next", "continue", "go ahead") before sending the next item.
@@ -59,3 +40,35 @@ If the user gets lost, or an item assumed something not yet covered:
 3. Resume with the corrected item once the user gives the go-ahead.
 
 Small wording tweaks need no announcement. Anything that changes what's coming next does.
+
+## Format
+
+Roadmap:
+
+```
+1. item title
+2. item title
+3. item title
+...
+```
+
+Sources:
+
+```
+- source 1
+- source 2
+- source 3
+...
+```
+
+Each item:
+
+```
+**N. Item title**
+
+<one-line summary of what this item covers>
+
+<explanation>
+
+— Say "next" when ready, or ask about this first.
+```
