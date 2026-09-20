@@ -1,5 +1,15 @@
 # CLAUDE.md
 
+## Skills language style
+
+When writing or editing SKILL.md files:
+
+- Prefer short sentences over long compound ones.
+- Use common words over rare ones.
+- Avoid vague and filler phrases.
+
+## Rules
+
 - After any file changes or creation, run the formatter:
   ```bash
   npm run format
