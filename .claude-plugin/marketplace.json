@@ -1,25 +1,13 @@
 {
-  "name": "alexei-lexx-skills",
+  "name": "alexei-lexx",
   "owner": {
     "name": "Alexei Lexx"
   },
-  "description": "Alexei Lexx' skills for developers",
+  "description": "Skills for developers",
   "plugins": [
     {
-      "name": "development",
-      "source": "./plugins/development",
-      "description": "Git and GitHub formatting conventions."
-    },
-    {
-      "name": "learning",
-      "source": "./plugins/learning",
-      "description": "Skills for learning new topics, interview preparation, and knowledge checks."
-    },
-    {
-      "name": "misc",
-      "source": "./plugins/misc",
-      "description": "Miscellaneous skills that don't fit a specific category."
+      "name": "alexei-lexx-skills",
+      "source": "."
     }
-  ],
-  "strict": false
+  ]
 }
