@@ -36,7 +36,7 @@ Present each question like this:
 - **One question at a time** — never batch questions
 - **Wait for an explicit answer** — don't record or advance until the user picks one
 - **Adapt on the fly** — if an earlier answer makes a later question irrelevant, skip it; if it opens a new question, add it
-- **Accept any response form** — user can pick a number, type a free-form answer, or ask to discuss, all valid
+- **Accept any response form** — user can pick a number, type a free-form answer, or ask to discuss
 - **Discussion mode** — if user picks "discuss" or asks a follow-up, engage fully; when resolved, record the answer and move on
 - **Track all answers internally** — after each answer, confirm what was recorded briefly (one line) and ask to proceed
 - **Allow corrections** — if the user wants to change a previous answer, update it
