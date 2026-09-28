@@ -15,4 +15,4 @@ When writing or editing SKILL.md files:
   ```bash
   npm run format
   ```
-- Commits MUST NOT mention AI authorship — write on behalf of a human developer
+- MUST NOT mention AI authorship in commit messages — write on behalf of a human developer
