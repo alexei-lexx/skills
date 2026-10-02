@@ -32,6 +32,7 @@ Teach a topic one small piece at a time. Basics first, advanced later. Pause bet
 - If an item has code, and you can run that programming language, run it before sending and fix any error
 - Wait for a clear go-ahead ("next", "continue", "go ahead") before sending the next item
 - When the user's reply is anything besides a clear go-ahead — a question, a comment, or something off-topic — stay on this item and answer it
+  - If the user asks about something a later item covers, name that item and don't go deeper
 
 ## Adapt
 
