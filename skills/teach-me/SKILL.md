@@ -30,6 +30,7 @@ Each item checklist:
 - Item must build on earlier items, not later ones
 - Item must define topic-specific terms before their first use
 - Item must cover one thing; move any extra into a new item
+- Item must be written for a first-time reader who doesn't know the discussion around it
 - If an item has code, and you can run that programming language, run it before sending and fix any error
 - Item must be short: readable in about two minutes, roughly 300-400 words (that's a ceiling, not a target)
 
@@ -42,6 +43,7 @@ Each item checklist:
 - When the user's reply is anything besides a clear go-ahead — a question, a comment, or something off-topic — stay on this item and answer it
   - If the user asks about something a later item covers, name that item instead of going deeper
   - If the user asks for a fix, change only that part and don't rewrite the rest of the item
+  - When fixing, remember future readers won't know the discussion and will see only the final version
 
 ## Adapt
 
@@ -82,7 +84,6 @@ Each item:
 
 <explanation>
 
-Done: N. Item title
-Next: N+1. Next item title
+[N/TOTAL] Item title -> [N+1] Next item title
 Say "next" or "go" when ready, or ask about this first.
 ```
