@@ -82,5 +82,7 @@ Each item:
 
 <explanation>
 
-— Say "next" when ready, or ask about this first.
+Done: N. Item title
+Next: N+1. Next item title
+Say "next" or "go" when ready, or ask about this first.
 ```
