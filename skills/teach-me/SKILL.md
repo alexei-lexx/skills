@@ -21,7 +21,7 @@ Organize the topic into a series of items:
 - For a recap, ask where to start, or start further in and back up if needed
 - Break the topic into items that guide the user from basics to advanced
 - An item is an explanation unit that covers exactly one idea, mechanism, rule, distinction, or pitfall (gotcha, edge case, inconsistency, trap)
-- The last item is a summary: a few bullets with the most important points
+- The last item is a summary: up to 5 bullets with only the most essential points
 - Let the topic decide the item count (no fixed number)
 - Use examples and evolve them across items where they make the topic clearer
 
@@ -36,6 +36,7 @@ Each item checklist:
 
 ## Deliver
 
+- Write all messages in ASD Simplified Technical English
 - Start with a roadmap: item titles only, no explanations
 - Then list the sources used in research
 - Then deliver one item per message, using the item format below
