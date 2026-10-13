@@ -28,6 +28,8 @@ Organize the topic into a series of items:
 Each item checklist:
 
 - Item must build on earlier items, not later ones
+- If an item refers to an earlier item, it must give again the necessary information from that item
+- If an item leaves a detail for a later item, it must tell what that item will add
 - Item must define topic-specific terms before their first use
 - Item must cover one thing; move any extra into a new item
 - Item must be written for a first-time reader who doesn't know the discussion around it
