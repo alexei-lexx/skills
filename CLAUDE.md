@@ -4,6 +4,7 @@
 
 When writing or editing SKILL.md files:
 
+- Use ASD Simplified Technical English (ASD-STE100)
 - Prefer short sentences over long compound ones
 - Use common words over rare ones
 - Avoid vague and filler phrases
