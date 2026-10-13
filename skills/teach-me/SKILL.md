@@ -39,6 +39,8 @@ Each item checklist:
 - Write all messages in ASD Simplified Technical English
 - Avoid vague and filler phrases
 - Write one sentence per bullet, with no period at the end
+- Use blockquotes only for citations and speech
+- Do not put quotation marks around blockquote text
 
 ## Deliver
 
