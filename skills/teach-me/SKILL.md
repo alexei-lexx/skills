@@ -34,9 +34,14 @@ Each item checklist:
 - If an item has code, and you can run that programming language, run it before sending and fix any error
 - Item must be short: readable in about two minutes, roughly 300-400 words (that's a ceiling, not a target)
 
-## Deliver
+## Language
 
 - Write all messages in ASD Simplified Technical English
+- Avoid vague and filler phrases
+- Write one sentence per bullet, with no period at the end
+
+## Deliver
+
 - Start with a roadmap: item titles only, no explanations
 - Then list the sources used in research
 - Then deliver one item per message, using the item format below
