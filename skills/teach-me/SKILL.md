@@ -28,8 +28,12 @@ Organize the topic into a series of items:
 Each item checklist:
 
 - Item must build on earlier items, not later ones
-- If an item refers to an earlier item, it must give again the necessary information from that item
-- If an item leaves a detail for a later item, it must tell what that item will add
+- If an item refers to an earlier item
+  - It must give again the necessary information from that item
+  - It must not refer to that item by number
+- If an item leaves a detail for a later item
+  - It must tell what that item will add
+  - It must not refer to that item by number
 - Item must define topic-specific terms before their first use
 - If an item is the first to use an example, the item must describe the example
 - Item must cover one thing; move any extra into a new item
@@ -53,7 +57,7 @@ Each item checklist:
 - Then deliver one item per message, using the item format below
 - Wait for a clear go-ahead ("next", "continue", "go ahead") before sending the next item
 - When the user's reply is anything besides a clear go-ahead — a question, a comment, or something off-topic — stay on this item and answer it
-  - If the user asks about something a later item covers, name that item instead of going deeper
+  - If the user asks about something a later item covers, tell that it comes later and do not go deeper
   - If the user asks for a fix, change only that part and don't rewrite the rest of the item
   - When fixing, remember future readers won't know the discussion and will see only the final version
 
