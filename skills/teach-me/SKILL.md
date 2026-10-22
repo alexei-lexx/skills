@@ -69,7 +69,7 @@ Small wording tweaks need no announcement. Anything that changes what's coming n
 
 ## Format
 
-Roadmap:
+### Roadmap
 
 ```
 1. item title
@@ -78,7 +78,7 @@ Roadmap:
 ...
 ```
 
-Sources:
+### Sources
 
 ```
 - source 1
@@ -87,7 +87,7 @@ Sources:
 ...
 ```
 
-Each item:
+### Each Item
 
 ```
 **N. Item title**
@@ -99,3 +99,34 @@ Each item:
 [N/TOTAL] Item title -> [N+1] Next item title
 Say "next" or "go" when ready, or ask about this first.
 ```
+
+### Shell Commands
+
+- Do not write a prompt sign (`$`, `#`, `>`) in a shell code block
+- Do not put commands and their output in the same code block
+
+**Example 1**
+
+````
+```shell
+mkdir demo
+echo "hello" > demo/note.txt
+cat demo/note.txt
+```
+
+```text
+hello
+```
+````
+
+**Example 2**
+
+````
+```shell
+ls demo
+```
+
+```text
+note.txt
+```
+````
