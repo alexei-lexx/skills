@@ -2,13 +2,8 @@
 
 ## Skills language style
 
-When writing or editing SKILL.md files:
-
-- Use ASD Simplified Technical English (ASD-STE100)
-- Prefer short sentences over long compound ones
-- Use common words over rare ones
-- Avoid vague and filler phrases
-- One sentence per bullet, no period at the end
+When writing or editing SKILL.md files,
+follow the rules in `skills/plain-prose/SKILL.md`.
 
 ## Rules
 
