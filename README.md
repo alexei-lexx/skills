@@ -36,5 +36,6 @@ npx skills add alexei-lexx/skills
 - `format-github-issue`: formats a GitHub issue title and description
 - `format-github-pr`: formats a GitHub pull request title and description
 - `interview`: gathers input from the user through a series of questions
+- `plain-prose`: language rules for chat replies, docs, code comments, and skills
 - `teach-me`: teaches or recaps a topic in small steps, from basics to advanced
 - `testing`: guides writing and reviewing Jest or Vitest tests
